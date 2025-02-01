@@ -1,0 +1,13 @@
+Required CSV format for COVID-19 data:
+
+date,cases
+2020-01-01,100
+2020-01-02,120
+2020-01-03,150
+...
+
+Notes:
+- Date should be in YYYY-MM-DD format
+- Cases should be cumulative total cases
+- No missing values allowed
+- Save file as CSV format
