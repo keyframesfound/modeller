@@ -8,10 +8,10 @@ def logistic(t, K, N0, lambda_):
 # Parameters
 K = 700_000_000
 N0 = 557
-lambda_ = 0.05
+lambda_ = 0.2892016925556748
 
 # Time range (0 to 20 days)
-t = np.linspace(0, 20, 100)
+t = np.linspace(0, 80)
 
 # Calculate N(t)
 N_t = logistic(t, K, N0, lambda_)
